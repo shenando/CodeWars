@@ -30,3 +30,13 @@ function getToTarget(arr, target) {
 getToTarget([1, 2], 3)
 getToTarget([1, 1], 3)
 getToTarget([1, 2, 2, 3, 4, 5], 7)
+
+//get people TALKING
+// clarify the parameters, know that the word or string or whatever coming in has no funny bisnuess
+//make sure you are clear on what the function should do, what it takes in, and what you're returning 
+  //ex: if you return a string instead of a number
+  // 'Just to make sure we're on the same page, I'd love to walking through some examples with you (provide input, would it return "...."?)
+  //PULL THE INTERVIEWER INTO THE CONVERSATION, don't want them just sitting there
+//"Ok, i'm feeling good. I feel like we understand what's happening and that we have some good test cases here"
+  //BUILD THAT REPORT
+//ASK BEFORE: HOW LONG, HOW MANY QUESTIONS (or bring it up first thing)
