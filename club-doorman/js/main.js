@@ -11,7 +11,6 @@ To answer the right number you need to find the doubled letter's position of the
 
 It will be given only words with one doubled letter.
 
-
 EXAMPLE
 Lettuce is the given word. 't' is the doubled letter and it's position is 20 in the alphabet.
 
