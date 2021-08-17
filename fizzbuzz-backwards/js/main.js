@@ -36,9 +36,7 @@ function reverseFizzBuzz(array) {
   
   let arrFinal = []
   
-  if (fizzBuzz.length === 0) {
-    arrFinal.push(fizz[0], buzz[0])
-  } else if (fizz.length === 0 && buzz.length === 0) {
+  if (fizz.length === 0 && buzz.length === 0) {
     arrFinal.push(fizzBuzz[0], fizzBuzz[1])
   } else if (fizz.length === 0) {
     arrFinal.push(fizzBuzz[0], buzz[0])
