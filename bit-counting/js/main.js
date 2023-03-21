@@ -7,6 +7,8 @@ Write a function that takes an integer as input, and returns the number of bits 
 Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
 */
 
-var countBits = function(n) {
+var countBits = function (n) {
   return n == null | n == 0 ? 0 : n.toString(2).match(/1/g).length
 };
+
+//test
