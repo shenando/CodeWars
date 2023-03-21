@@ -11,4 +11,4 @@ var countBits = function (n) {
   return n == null | n == 0 ? 0 : n.toString(2).match(/1/g).length
 };
 
-//test
+//test 2
