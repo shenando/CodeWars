@@ -65,9 +65,38 @@ When you have a program that generates this pattern, define a binding size = 8 a
 */
 
 let amount = 8;
-let board;
-for (let i = 0; i < amount; i++) {
-  let row = '';
-  row += '#';
-  console.log(row);
+let row = [];
+let board = [];
+for (let i = 1; i <= amount; i++) {
+  if (i % 2 == 0) {
+    row.push('#')
+  } else (
+    row.push(' ')
+  )
+
+  if (i % amount == 0) {
+    row.push('\n')
+  }
 }
+
+for (let j = 1; j <= amount; j++) {
+  if (j % 2 == 0) {
+    row.push(' ')
+  } else (
+    row.push('#')
+  )
+
+  if (j % amount == 0) {
+    row.push('\n')
+  }
+}
+
+let finalRow = row.join(' ')
+
+for (let k = 1; k <= amount / 2; k++) {
+  board.push(finalRow);
+}
+console.log(board.join(' '))
+
+//board.join('')
+
