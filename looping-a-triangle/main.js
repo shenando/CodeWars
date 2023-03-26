@@ -91,12 +91,9 @@ for (let j = 1; j <= amount; j++) {
   }
 }
 
-let finalRow = row.join(' ')
+let finalRow = row.join('')
 
 for (let k = 1; k <= amount / 2; k++) {
   board.push(finalRow);
 }
-console.log(board.join(' '))
-
-//board.join('')
-
+console.log(board.join(''))
